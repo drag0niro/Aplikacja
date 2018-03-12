@@ -1,3 +1,7 @@
 <resources>
-    <string name="app_name">Aplikacja</string>
+    <string name="app_name">Anime SoundBoard</string>
+    <string name="main">Main Page</string>
+    <string name="category">Category List</string>
+    <string name="about">About</string>
+    <style name="toolbar_title">Anime SoundBoard</style>
 </resources>
