@@ -35,6 +35,23 @@
 
     </android.support.v7.widget.Toolbar>
 
+        <LinearLayout
+            android:id="@+id/linear_ads"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:paddingBottom="8dp">
+
+            <com.google.android.gms.ads.AdView
+                xmlns:ads="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/adView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                ads:adSize="BANNER"
+                ads:adUnitId="ca-app-pub-3940256099942544/6300978111"
+                android:layout_gravity="bottom">
+            </com.google.android.gms.ads.AdView>
+        </LinearLayout>
 
     </FrameLayout>
 
@@ -49,4 +66,6 @@
         app:headerLayout="@layout/nav_header"
         android:background="@color/white"/>
 
+
 </android.support.v4.widget.DrawerLayout>
+
